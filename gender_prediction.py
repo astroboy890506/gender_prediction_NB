@@ -30,8 +30,7 @@ def extract_gender_features(name):           # step 3: feature extraction (since
 
 def main():
     st.title("Gender Prediction App")
-    name = st.write("Enter a name to predict the gender:")
-    extract_gender_features(name)
+    st.write("Enter a name to predict the gender:")
     
     # Load the model
     model_path = 'gender_prediction_model.joblib'
